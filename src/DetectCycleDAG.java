@@ -36,7 +36,7 @@ public class DetectCycleDAG {
 		map.put(2, new ArrayList<Integer>());
 		map.put(3, new ArrayList<Integer>(Arrays.asList(5)));
 		map.put(4, new ArrayList<Integer>());
-		map.put(5, new ArrayList<Integer>(Arrays.asList(4)));
+		map.put(5, new ArrayList<Integer>(Arrays.asList(1)));
 		System.out.println(hasCycle(map));
 	}
 }
